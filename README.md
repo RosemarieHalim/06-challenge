@@ -55,4 +55,4 @@ https://rosemariehalim.github.io/06-challenge/
 When your script is too efficient for HTML  
 (ノಠ益ಠ)ノ彡┻━┻ Failing from success
 
-![refer to assets > img > oof.jpg](.assets\img\oof.jpg)
+![refer to assets > img > oof.jpg](https://github.com/RosemarieHalim/06-challenge/blob/main/assets/img/oof.JPG)
