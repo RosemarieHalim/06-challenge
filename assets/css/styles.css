@@ -48,6 +48,28 @@ input {
     margin-top: 5px;
 }
 
+#searchBtn:hover {
+    background-color: rgb(0, 111, 215);
+}
+
+#cities li {
+    background-color: lightgrey;
+    color: black;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#cities li:hover {
+    background-color:rgb(214, 229, 255);
+}
+
+#cities {
+    list-style: none;
+    padding: 0;
+}
+
 /*  FORECAST */
 
 h4 {
