@@ -44,9 +44,9 @@ https://rosemariehalim.github.io/06-challenge/
 * planned out code
 * linked css and js to HTML file
 * created develop branch
-* created base  function
-* added the functions for date and time
-* created core add task and save to local storage functions
+* created base html and css
+* linked API and created base javascript forecast functions
+* created add city and save to local storage functions
 * tested and fixed broken code
 * merged develop branch into main and pushed to GitHub
 
