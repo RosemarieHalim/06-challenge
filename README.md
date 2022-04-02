@@ -1,26 +1,24 @@
-#   Challenge 05 - Work Day Scheduler
+#   Challenge 06 - Weather Dashboard
 
 ##  User Story
 
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+AS A traveler
+I WANT to see the weather outlook for multiple cities
+SO THAT I can plan a trip accordingly
 
 ## Acceptance Criteria
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+GIVEN a weather dashboard with form inputs
+WHEN I search for a city
+THEN I am presented with current and future conditions for that city and that city is added to the search history
+WHEN I view current weather conditions for that city
+THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
+WHEN I view the UV index
+THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
+WHEN I view future weather conditions for that city
+THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
+WHEN I click on a city in the search history
+THEN I am again presented with current and future conditions for that city
 
 ---
 
@@ -37,11 +35,11 @@ As a developer, I want to create a scheduler where users can schedule their work
 * Bootstrap
 
 ## Website
-https://rosemariehalim.github.io/05-challenge/
+https://rosemariehalim.github.io/06-challenge/
 
 ---
 
-## Challenge 5.0
+## Challenge 6.0
 
 * planned out code
 * linked css and js to HTML file
@@ -51,3 +49,10 @@ https://rosemariehalim.github.io/05-challenge/
 * created core add task and save to local storage functions
 * tested and fixed broken code
 * merged develop branch into main and pushed to GitHub
+
+---
+
+When your script is too efficient for HTML  
+(ノಠ益ಠ)ノ彡┻━┻ Failing from success
+
+![alt text](assets\img\oof.JPG)

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Weather Dashboard</title>
   </head>
 
@@ -14,7 +14,61 @@
       <h1>Weather Dashboard</h1>
     </header>
     <div class="container">
-      
+        <div class="row">
+            <div class="search-form col-lg-4">
+                <h3>Search for a City:</h3>
+                <input type="text" id="citySearch" placeholder="Search for a city">
+                <button type="submit" id="searchBtn" onclick="searchCity()">Search</button>
+                <hr>
+                <ul id="cities"></ul>
+            </div>
+            <div class="forecast col-lg-8">
+                <div class="row today">
+                    <div class="col">
+                        <h3 id="cityContent"></h3>
+                        <p id="temp"></p><br>
+                        <p id="wind"></p><br>
+                        <p id="humid"></p><br>
+                        <p id="uv"></p>
+                    </div>    
+                </div>
+                <div class="row">
+                    <h4>5-Day forecast:</h4>
+                </div>
+                <div class="row">
+                    <div class="col five-day" id="day1">
+                        <p id="date1" class="date"></p><br>
+                        <p id="temp1"></p><br>
+                        <p id="wind1"></p><br>
+                        <p id="humid1"></p><br>
+                    </div>
+                    <div class="col five-day" id="day2">
+                        <p id="date2" class="date"></p><br>
+                        <p id="temp2"></p><br>
+                        <p id="wind2"></p><br>
+                        <p id="humid2"></p><br>
+                    </div>
+                    <div class="col five-day" id="day3">
+                        <p id="date3" class="date"></p><br>
+                        <p id="temp3"></p><br>
+                        <p id="wind3"></p><br>
+                        <p id="humid3"></p><br>
+                    </div>
+                    <div class="col five-day" id="day4">
+                        <p id="date4" class="date"></p><br>
+                        <p id="temp4"></p><br>
+                        <p id="wind4"></p><br>
+                        <p id="humid4"></p><br>
+                    </div>
+                    <div class="col five-day" id="day5">
+                        <p id="date5" class="date"></p><br>
+                        <p id="temp5"></p><br>
+                        <p id="wind5"></p><br>
+                        <p id="humid5"></p><br>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./assets/js/script.js"></script>
