@@ -44,7 +44,7 @@ https://rosemariehalim.github.io/06-challenge/
 * planned out code
 * linked css and js to HTML file
 * created develop branch
-* created base schedule function
+* created base  function
 * added the functions for date and time
 * created core add task and save to local storage functions
 * tested and fixed broken code
